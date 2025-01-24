@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import MobileNav from "./mobile-nav";
 import { useWallet } from "../providers/WalletProvider";
+import Image from "next/image";
 
 
 export default function Onboard() {  
@@ -19,7 +20,11 @@ export default function Onboard() {
           </div>
           <div className="logo mr-[-10px]">
             <Link href="/">
-              <img src="/assets/Logo.png" alt="logo" />
+              <Image 
+              width={100}
+              height={100}
+              src="/assets/Logo.png"
+              alt="logo" />
             </Link>
           </div>
         </div>

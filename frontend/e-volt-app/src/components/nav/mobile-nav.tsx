@@ -7,6 +7,7 @@ import {
   SheetTrigger,
 } from "../ui/sheet";
 import Link from "next/link";
+import Image from "next/image";
 
 const MobileNav = () => {
   return (
@@ -19,8 +20,12 @@ const MobileNav = () => {
       <SheetContent side={"left"}>
         <SheetHeader>
           <SheetTitle className="flex flex-row gap-2 items-center">
-            <div className="aspect-square size-5 bg-slate-500" />
-            <a href="/">E-VOT</a>
+          <Image
+              width={60}
+              height={60}
+              src="/assets/Logo.png"
+              alt="logo" />
+            <Link href="/">E-VOT</Link>
           </SheetTitle>
         </SheetHeader>
         <div className="space-y-2 flex flex-col mt-4">

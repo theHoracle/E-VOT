@@ -22,7 +22,7 @@ const ElectionPill = (props) => {
           restricted
         </h4>
       </div>
-      <div className="col-start-2 row-span-1 md:col-start-3 md:col-span-6 flex items-center ">
+      <div className="col-start-2 row-span-1 md:col-start-3 md:col-span-6 flex items-center md:gap-4 w-full md:overflow-x-scroll scroll-m-0">
         {candidates.map((candidate, i) => (
           <CandidateAvatar
             key={i}

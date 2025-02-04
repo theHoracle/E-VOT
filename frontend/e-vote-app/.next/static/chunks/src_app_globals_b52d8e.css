@@ -380,11 +380,6 @@ body {
   bottom: 0;
 }
 
-.inset-x-1 {
-  left: .25rem;
-  right: .25rem;
-}
-
 .bottom-0 {
   bottom: 0;
 }
@@ -415,10 +410,6 @@ body {
 
 .top-\[-20vh\] {
   top: -20vh;
-}
-
-.bottom-4 {
-  bottom: 1rem;
 }
 
 .z-10 {
@@ -453,6 +444,11 @@ body {
   grid-row-start: 2;
 }
 
+.mx-1 {
+  margin-left: .25rem;
+  margin-right: .25rem;
+}
+
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -471,11 +467,6 @@ body {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.mx-1 {
-  margin-left: .25rem;
-  margin-right: .25rem;
 }
 
 .mb-4 {
@@ -714,6 +705,10 @@ body {
   cursor: pointer;
 }
 
+.scroll-m-0 {
+  scroll-margin: 0;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -838,6 +833,10 @@ body {
   text-wrap: wrap;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -864,10 +863,6 @@ body {
 
 .rounded-xl {
   border-radius: .75rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
 }
 
 .rounded-l {
@@ -1005,11 +1000,6 @@ body {
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
-}
-
-.bg-slate-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white {
@@ -2167,8 +2157,16 @@ a:active {
     gap: 2.5rem;
   }
 
+  .md\:gap-4 {
+    gap: 1rem;
+  }
+
   .md\:gap-8 {
     gap: 2rem;
+  }
+
+  .md\:overflow-x-scroll {
+    overflow-x: scroll;
   }
 
   .md\:px-20 {

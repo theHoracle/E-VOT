@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"file":"index.js","sources":["file:///Users/jamesmorgan/Developer/web3/E-VOT/frontend/e-vote-app/node_modules/.pnpm/%40web3modal%2Bscaffold%404.1.12-910a844.0_%40types%2Breact%4019.0.8_react%4019.0.0/node_modules/%40web3modal/scaffold/index.ts"],"sourcesContent":["unable to read source [project]/node_modules/.pnpm/@web3modal+scaffold@4.1.12-910a844.0_@types+react@19.0.8_react@19.0.0/node_modules/@web3modal/scaffold/index.ts"],"names":[],"mappings":"","ignoreList":[0]}},
+    {"offset": {"line": 83, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

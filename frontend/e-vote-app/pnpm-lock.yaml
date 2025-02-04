@@ -12,14 +12,21 @@ importers:
         specifier: ^5.5.6
         version: 5.5.6(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@headlessui/react':
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
         specifier: ^2.2.0
+=======
+        specifier: ^2.1.4
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
         version: 2.2.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/react-dialog':
         specifier: ^1.1.5
         version: 1.1.5(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
       '@radix-ui/react-slot':
         specifier: ^1.1.1
         version: 1.1.1(@types/react@19.0.8)(react@19.0.0)
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -66,24 +73,34 @@ importers:
         specifier: ^0.1.0-alpha.1
         version: 0.1.0-alpha.1(@types/react@19.0.8)(bufferutil@4.0.9)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(utf-8-validate@5.0.10)(web3-eth-contract@4.7.2(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.1))(web3-eth-ens@4.4.0(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.1))(web3-eth@4.11.1(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.1))(web3-types@1.10.0)(web3-utils@4.3.3)
     devDependencies:
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
       '@types/node':
         specifier: 22.13.0
         version: 22.13.0
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
       '@types/react':
         specifier: 19.0.8
         version: 19.0.8
       '@vitejs/plugin-react':
         specifier: ^4.3.1
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
         version: 4.3.4(vite@5.4.14(@types/node@22.13.0))
+=======
+        version: 4.3.4(vite@5.4.14(@types/node@22.10.10))
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
       eslint:
         specifier: ^8
         version: 8.57.1
       eslint-config-next:
         specifier: 15.1.6
         version: 15.1.6(eslint@8.57.1)(typescript@5.7.3)
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
       jsdoc:
         specifier: ^4.0.4
         version: 4.0.4
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
       pino-pretty:
         specifier: ^11.2.2
         version: 11.3.0
@@ -93,9 +110,12 @@ importers:
       tailwindcss:
         specifier: ^3.4.1
         version: 3.4.17
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
       typescript:
         specifier: 5.7.3
         version: 5.7.3
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
 
 packages:
 
@@ -588,10 +608,13 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   '@jsdoc/salty@0.2.9':
     resolution: {integrity: sha512-yYxMVH7Dqw6nO0d5NIV8OQWnitU8k6vXH8NtgqAfIa/IUqRMxRv/NUJJ08VEKbAakwxlgBl5PJdrU0dMPStsnw==}
     engines: {node: '>=v12.0.0'}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   '@lit-labs/ssr-dom-shim@1.3.0':
     resolution: {integrity: sha512-nQIWonJ6eFAvUUrSlwyHDm/aE8PBDu5kRpL0vHMg6K8fK3Diq1xdPjTnsJSwxABhaZ+5eBi1btQB5ShUTKo4nQ==}
 
@@ -1230,6 +1253,7 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   '@types/linkify-it@5.0.0':
     resolution: {integrity: sha512-sVDA58zAw4eWAffKOaQH5/5j3XeayukzDk+ewSsnv3p4yJEZHCCzMDiZM8e0OUrRvmpGZ85jf4yDHkHsgBNr9Q==}
 
@@ -1239,14 +1263,21 @@ packages:
   '@types/mdurl@2.0.0':
     resolution: {integrity: sha512-RGdgjQUZba5p6QEFAVx2OGb8rQDL/cPRG7GiedRzMcJ1tYnUANBncjbSB1NRGwbvjcPeikRABz2nshyPk1bhWg==}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
   '@types/node@18.15.13':
     resolution: {integrity: sha512-N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   '@types/node@22.13.0':
     resolution: {integrity: sha512-ClIbNe36lawluuvq3+YYhnIN2CELi+6q8NpnM7PYp4hBn/TatfboPgVSm2rwKRfnV2M+Ty9GWDFI64KEe+kysA==}
+=======
+  '@types/node@22.10.10':
+    resolution: {integrity: sha512-X47y/mPNzxviAGY5TcYPtYL8JsY3kAq2n8fMmKoRCxq/c4v4pyGNCzM2R6+M5/umG4ZfHuT+sgqDYqWc9rJ6ww==}
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
 
   '@types/node@22.7.5':
     resolution: {integrity: sha512-jML7s2NAzMWc//QSJ1a3prpk78cOPchGvXJsC3C6R6PSMoooztvRVQEz89gmBTBY1SPMaqo5teB4uNHPdetShQ==}
@@ -1680,9 +1711,12 @@ packages:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   bluebird@3.7.2:
     resolution: {integrity: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   bn.js@4.12.1:
     resolution: {integrity: sha512-k8TVBiPkPJT9uHLdOKfFpqcfprwBFOAAXXozRubr7R7PfIuKvQlzcI4M0pALeqXN09vdaMbUdUj+pass+uULAg==}
 
@@ -1751,10 +1785,13 @@ packages:
   caniuse-lite@1.0.30001695:
     resolution: {integrity: sha512-vHyLade6wTgI2u1ec3WQBxv+2BrTERV28UXQu9LO6lZ9pYeMk34vjXFLOxo1A4UBA8XTL4njRQZdno/yYaSmWw==}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   catharsis@0.9.0:
     resolution: {integrity: sha512-prMTQVpcns/tzFgFVkVp6ak6RykZyWb3gu8ckUpd6YkTlacOd3DXGJjIpD4Q6zJirizvaiAjSSHlOsA+6sNh2A==}
     engines: {node: '>= 10'}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
@@ -2008,10 +2045,13 @@ packages:
     resolution: {integrity: sha512-0/r0MySGYG8YqlayBZ6MuCfECmHFdJ5qyPh8s8wa5Hnm6SaFLSK1VYCbj+NKp090Nm1caZhD+QTnmxO7esYGyQ==}
     engines: {node: '>=10.13.0'}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   entities@4.5.0:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   es-abstract@1.23.9:
     resolution: {integrity: sha512-py07lI0wjxAC/DcfK1S6G7iANonniZwTISvdPzk9hzeH0IZIshbuuFxLIU96OyF89Yb9hiqWn8M/bY83KY5vzA==}
     engines: {node: '>= 0.4'}
@@ -2052,10 +2092,13 @@ packages:
     resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
     engines: {node: '>=6'}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   escape-string-regexp@2.0.0:
     resolution: {integrity: sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==}
     engines: {node: '>=8'}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   escape-string-regexp@4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
@@ -2626,6 +2669,7 @@ packages:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   js2xmlparser@4.0.2:
     resolution: {integrity: sha512-6n4D8gLlLf1n5mNLQPRfViYzu9RATblzPEtm1SthMX1Pjao0r9YI9nw7ZIfRxQMERS87mcswrg+r/OYrPRX6jA==}
 
@@ -2634,6 +2678,8 @@ packages:
     engines: {node: '>=12.0.0'}
     hasBin: true
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   jsesc@3.1.0:
     resolution: {integrity: sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==}
     engines: {node: '>=6'}
@@ -2678,9 +2724,12 @@ packages:
   keyvaluestorage-interface@1.0.0:
     resolution: {integrity: sha512-8t6Q3TclQ4uZynJY9IGr2+SsIGwK9JHcO6ootkHCGA0CrQCRy+VkouYNO2xicET6b9al7QKzpebNow+gkpCL8g==}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   klaw@3.0.0:
     resolution: {integrity: sha512-0Fo5oir+O9jnXu5EefYbVK+mHMBeEVEy2cmctR1O1NECcCkPRreJKrS6Qt/j3KC2C148Dfo9i3pCmCMsdqGr0g==}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   language-subtag-registry@0.3.23:
     resolution: {integrity: sha512-0K65Lea881pHotoGEa5gDlMxt3pctLi2RplBb7Ezh4rRdLEOtgi7n4EwK9lamnUCkKBqaeKRVebTq6BAxSkpXQ==}
 
@@ -2699,9 +2748,12 @@ packages:
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   linkify-it@5.0.0:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   lit-element@3.3.3:
     resolution: {integrity: sha512-XbeRxmTHubXENkV4h8RIPyr8lXc+Ff28rkcQzw3G6up2xg5E8Zu1IgOWIwBLEQsu3cOVFqdYwiVi0hv0SlpqUA==}
 
@@ -2753,6 +2805,7 @@ packages:
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   markdown-it-anchor@8.6.7:
     resolution: {integrity: sha512-FlCHFwNnutLgVTflOYHPW2pPcl2AACqVzExlkGQNsi4CJgqOHN7YTgDd4LuhgN1BFO3TS0vLAruV1Td6dwWPJA==}
     peerDependencies:
@@ -2768,13 +2821,18 @@ packages:
     engines: {node: '>= 12'}
     hasBin: true
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
     engines: {node: '>= 0.4'}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   mdurl@2.0.0:
     resolution: {integrity: sha512-Lf+9+2r+Tdp5wXDXC4PcIBjTDtq4UKjCPMQhKIuzpJNW0b96kVqSwW0bT7FhRSfmAiFYgP+SCRvdrDozfh0U5w==}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
@@ -2831,11 +2889,14 @@ packages:
       typescript:
         optional: true
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   mkdirp@1.0.4:
     resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
     engines: {node: '>=10'}
     hasBin: true
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   motion@10.16.2:
     resolution: {integrity: sha512-p+PurYqfUdcJZvtnmAqu5fJgV2kR0uLFQuBKtLeFVTrYEVllI99tiOTSefVNYuip9ELTEkepIIDftNdze76NAQ==}
 
@@ -3156,10 +3217,13 @@ packages:
   pump@3.0.2:
     resolution: {integrity: sha512-tUPXtzlGM8FE3P0ZL6DVs/3P58k9nk8/jZeQCurTJylQA8qFYzHFfhBJkuqyE0FifOsQ0uKWekiZ5g8wtr28cw==}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   punycode.js@2.3.1:
     resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
     engines: {node: '>=6'}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
@@ -3283,9 +3347,12 @@ packages:
   require-main-filename@2.0.0:
     resolution: {integrity: sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   requizzle@0.2.4:
     resolution: {integrity: sha512-JRrFk1D4OQ4SqovXOgdav+K8EAhSB/LJZqCz8tbX0KObcdeM15Ss59ozWMBWmmINMagCwmqn4ZNryUGpBsl6Jw==}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
     engines: {node: '>=4'}
@@ -3657,9 +3724,12 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   uc.micro@2.1.0:
     resolution: {integrity: sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   ufo@1.5.4:
     resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
 
@@ -3676,9 +3746,12 @@ packages:
   uncrypto@0.1.3:
     resolution: {integrity: sha512-Ql87qFHB3s/De2ClA9e0gsnS6zXG27SkTiSJwjCc9MebbfapQfuPzumMIUMi38ezPZVNFcHI9sUIepeQfw8J8Q==}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   underscore@1.13.7:
     resolution: {integrity: sha512-GMXzWtsc57XAtguZgaQViUOzs0KTkk8ojr3/xAxXLITqf/3EMwxC0inyETfDFjH/Krbhuep0HNbbjI9i/q3F3g==}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   undici-types@6.19.8:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
@@ -4068,9 +4141,12 @@ packages:
       utf-8-validate:
         optional: true
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   xmlcreate@2.0.4:
     resolution: {integrity: sha512-nquOebG4sngPmGPICTS5EnxqhKbCmz5Ox5hsszI2T6U5qdrJizBc+0ilYSEjTSzU0yZcmvppztXe/5Al5fUwdg==}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   xmlhttprequest-ssl@2.1.2:
     resolution: {integrity: sha512-TEU+nJVUUnA4CYJFLvK5X9AOeH4KvDvhIfm0vV1GaQRtchnG0hgK5p8hw/xjv8cunWYCsiPCSDzObPyhEwq3KQ==}
     engines: {node: '>=0.4.0'}
@@ -4590,10 +4666,13 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   '@jsdoc/salty@0.2.9':
     dependencies:
       lodash: 4.17.21
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   '@lit-labs/ssr-dom-shim@1.3.0': {}
 
   '@lit/reactive-element@1.6.3':
@@ -5291,6 +5370,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   '@types/linkify-it@5.0.0': {}
 
   '@types/markdown-it@14.1.2':
@@ -5300,11 +5380,17 @@ snapshots:
 
   '@types/mdurl@2.0.0': {}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   '@types/ms@2.1.0': {}
 
   '@types/node@18.15.13': {}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   '@types/node@22.13.0':
+=======
+  '@types/node@22.10.10':
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
     dependencies:
       undici-types: 6.20.0
 
@@ -5320,7 +5406,11 @@ snapshots:
 
   '@types/ws@8.5.3':
     dependencies:
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
       '@types/node': 22.13.0
+=======
+      '@types/node': 22.10.10
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
 
   '@typescript-eslint/eslint-plugin@8.21.0(@typescript-eslint/parser@7.2.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1)(typescript@5.7.3)':
     dependencies:
@@ -5429,14 +5519,22 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   '@vitejs/plugin-react@4.3.4(vite@5.4.14(@types/node@22.13.0))':
+=======
+  '@vitejs/plugin-react@4.3.4(vite@5.4.14(@types/node@22.10.10))':
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
       vite: 5.4.14(@types/node@22.13.0)
+=======
+      vite: 5.4.14(@types/node@22.10.10)
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
     transitivePeerDependencies:
       - supports-color
 
@@ -6312,8 +6410,11 @@ snapshots:
 
   binary-extensions@2.3.0: {}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   bluebird@3.7.2: {}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   bn.js@4.12.1: {}
 
   bn.js@5.2.1: {}
@@ -6382,10 +6483,13 @@ snapshots:
 
   caniuse-lite@1.0.30001695: {}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   catharsis@0.9.0:
     dependencies:
       lodash: 4.17.21
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   chalk@4.1.2:
     dependencies:
       ansi-styles: 4.3.0
@@ -6645,8 +6749,11 @@ snapshots:
       graceful-fs: 4.2.11
       tapable: 2.2.1
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   entities@4.5.0: {}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   es-abstract@1.23.9:
     dependencies:
       array-buffer-byte-length: 1.0.2
@@ -6773,8 +6880,11 @@ snapshots:
 
   escalade@3.2.0: {}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   escape-string-regexp@2.0.0: {}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   escape-string-regexp@4.0.0: {}
 
   eslint-config-next@15.1.6(eslint@8.57.1)(typescript@5.7.3):
@@ -7487,6 +7597,7 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   js2xmlparser@4.0.2:
     dependencies:
       xmlcreate: 2.0.4
@@ -7509,6 +7620,8 @@ snapshots:
       strip-json-comments: 3.1.1
       underscore: 1.13.7
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   jsesc@3.1.0: {}
 
   json-buffer@3.0.1: {}
@@ -7549,10 +7662,13 @@ snapshots:
 
   keyvaluestorage-interface@1.0.0: {}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   klaw@3.0.0:
     dependencies:
       graceful-fs: 4.2.11
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   language-subtag-registry@0.3.23: {}
 
   language-tags@1.0.9:
@@ -7568,10 +7684,13 @@ snapshots:
 
   lines-and-columns@1.2.4: {}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   linkify-it@5.0.0:
     dependencies:
       uc.micro: 2.1.0
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   lit-element@3.3.3:
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.3.0
@@ -7632,6 +7751,7 @@ snapshots:
     dependencies:
       react: 19.0.0
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   markdown-it-anchor@8.6.7(@types/markdown-it@14.1.2)(markdown-it@14.1.0):
     dependencies:
       '@types/markdown-it': 14.1.2
@@ -7652,6 +7772,10 @@ snapshots:
 
   mdurl@2.0.0: {}
 
+=======
+  math-intrinsics@1.1.0: {}
+
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   merge2@1.4.1: {}
 
   micro-ftch@0.3.1: {}
@@ -7693,8 +7817,11 @@ snapshots:
     optionalDependencies:
       typescript: 5.7.3
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   mkdirp@1.0.4: {}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   motion@10.16.2:
     dependencies:
       '@motionone/animation': 10.18.0
@@ -8023,8 +8150,11 @@ snapshots:
       end-of-stream: 1.4.4
       once: 1.4.0
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   punycode.js@2.3.1: {}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   punycode@2.3.1: {}
 
   qrcode@1.5.3:
@@ -8165,10 +8295,13 @@ snapshots:
 
   require-main-filename@2.0.0: {}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   requizzle@0.2.4:
     dependencies:
       lodash: 4.17.21
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   resolve-from@4.0.0: {}
 
   resolve-pkg-maps@1.0.0: {}
@@ -8653,8 +8786,11 @@ snapshots:
 
   typescript@5.7.3: {}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   uc.micro@2.1.0: {}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   ufo@1.5.4: {}
 
   uint8arrays@3.1.0:
@@ -8674,8 +8810,11 @@ snapshots:
 
   uncrypto@0.1.3: {}
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   underscore@1.13.7: {}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   undici-types@6.19.8: {}
 
   undici-types@6.20.0: {}
@@ -8779,13 +8918,21 @@ snapshots:
       - utf-8-validate
       - zod
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   vite@5.4.14(@types/node@22.13.0):
+=======
+  vite@5.4.14(@types/node@22.10.10):
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.1
       rollup: 4.31.0
     optionalDependencies:
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
       '@types/node': 22.13.0
+=======
+      '@types/node': 22.10.10
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
       fsevents: 2.3.3
 
   wagmi@2.14.9(@tanstack/query-core@5.64.2)(@tanstack/react-query@5.64.2(react@19.0.0))(@types/react@19.0.8)(bufferutil@4.0.9)(react@19.0.0)(typescript@5.7.3)(utf-8-validate@5.0.10)(viem@2.22.13(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.1))(zod@3.24.1):
@@ -9204,8 +9351,11 @@ snapshots:
       bufferutil: 4.0.9
       utf-8-validate: 5.0.10
 
+<<<<<<< HEAD:frontend/e-vote-app/pnpm-lock.yaml
   xmlcreate@2.0.4: {}
 
+=======
+>>>>>>> main:frontend/e-volt-app/pnpm-lock.yaml
   xmlhttprequest-ssl@2.1.2: {}
 
   xtend@4.0.2: {}

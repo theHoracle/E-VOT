@@ -10,9 +10,14 @@
   },
   "dependencies": {
     "@gelatonetwork/relay-sdk": "^5.5.6",
+<<<<<<< HEAD:frontend/e-vote-app/package.json
     "@headlessui/react": "^2.2.0",
     "@radix-ui/react-dialog": "^1.1.5",
     "@radix-ui/react-slot": "^1.1.1",
+=======
+    "@headlessui/react": "^2.1.4",
+    "@radix-ui/react-dialog": "^1.1.5",
+>>>>>>> main:frontend/e-volt-app/package.json
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "ethers": "^6.13.2",
@@ -30,15 +35,24 @@
     "web3modal-web3js": "^0.1.0-alpha.1"
   },
   "devDependencies": {
+<<<<<<< HEAD:frontend/e-vote-app/package.json
     "@types/node": "22.13.0",
+=======
+>>>>>>> main:frontend/e-volt-app/package.json
     "@types/react": "19.0.8",
     "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^8",
     "eslint-config-next": "15.1.6",
+<<<<<<< HEAD:frontend/e-vote-app/package.json
     "jsdoc": "^4.0.4",
     "pino-pretty": "^11.2.2",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "5.7.3"
+=======
+    "pino-pretty": "^11.2.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+>>>>>>> main:frontend/e-volt-app/package.json
   }
 }

@@ -14,15 +14,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} bg-background`} >
+    <html suppressHydrationWarning lang="en">
+      <body
+        className={`${inter.className} bg-[#F5F5F5] dark:bg-slate-900 dark:text-slate-100 px-4`}
+      >
         <ClientProvider>
-        <div className="mb-[10vh]">
-          <Navbar />
-        </div>
-        <ToastContainer />
+          <main className="flex flex-col">
+            <Navbar />
+            <div className="">{children}</div>
+          </main>
+          <ToastContainer />
         </ClientProvider>
-        <div className="overflow-scroll pt-[1vh] max-h-[90vh]">{children}</div>
       </body>
     </html>
   );

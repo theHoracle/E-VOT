@@ -1,4 +1,5 @@
 "use client";
+import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
 import { useWeb3ModalAccount } from "web3modal-web3js/react";
@@ -26,6 +27,21 @@ export const CheckIsConnectedButton = () => {
       className="space-x-4 bg-[#5773fb] text-white rounded-lg w-auto py-4 px-6 my-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
     >
       Complete KYC To Get Started
+    </button>
+  );
+};
+
+export const PrimaryButton = (props) => {
+  const { children, onClick, className } = props;
+  return (
+    <button
+      onClick={onClick}
+      className={cn(
+        "bg-primary dark:bg-secondary text-slate-100 rounded-3xl",
+        className,
+      )}
+    >
+      {children}
     </button>
   );
 };

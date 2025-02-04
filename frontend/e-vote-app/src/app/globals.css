@@ -8,6 +8,10 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+/* hsla(205, 12%, 58%, 1)
+*hsla(206, 12%, 58%, 1)
+*hsla(229, 53%, 26%, 1)
+* */
 
 @layer base {
   :root {
@@ -17,13 +21,13 @@
     --card-foreground: 224 71.4% 4.1%;
     --popover: 0 0% 100%;
     --popover-foreground: 224 71.4% 4.1%;
-    --primary: 262.1 83.3% 57.8%;
+    --primary: 229 53% 26%;
     --primary-foreground: 210 20% 98%;
     --secondary: 220 14.3% 95.9%;
     --secondary-foreground: 220.9 39.3% 11%;
-    --muted: 220 14.3% 95.9%;
+    --muted: 205 12% 58%;
     --muted-foreground: 220 8.9% 46.1%;
-    --accent: 220 14.3% 95.9%;
+    --accent: 206 12% 58%;
     --accent-foreground: 220.9 39.3% 11%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 20% 98%;

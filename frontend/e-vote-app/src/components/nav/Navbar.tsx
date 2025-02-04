@@ -2,72 +2,46 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import MobileNav from "./mobile-nav";
+
 import { useWallet } from "../providers/WalletProvider";
-import Image from "next/image";
 
-
-export default function Onboard() {  
+export default function Navbar() {
   const pathname = usePathname();
-  const { address, chainId, isConnected, walletProvider } = useWallet();
-  
-  return (
-    <header>
-      <nav className="flex h-[10vh] justify-between lg:justify-around items-center lg:px-4 px-1 fixed top-0 right-0 min-w-[100vw] bg-[#ffffff] border-b-2">
-        <div className="flex flex-1 items-center gap-2 md:gap-3 ">
-          <div className="border flex items-center border-[#5773fb] lg:hidden text-[#5773fb] rounded-lg p-0.5 ml-2 ">
-            <MobileNav />
-          </div>
-          <div className="logo mr-[-10px]">
-            <Link href="/">
-              <Image 
-              width={100}
-              height={100}
-              src="/assets/Logo.png"
-              alt="logo" />
-            </Link>
-          </div>
-        </div>
+  //  const { address, chainId, isConnected, walletProvider } = useWallet();
 
-        <div className="ml-20 flex-[2] hidden lg:flex">
-          <ul className="flex gap-16">
-            <li
-              className={`px-2 text-[#8F96A1] font-medium transform duration-200 hover:-translate-y-0.5  hover:border-[#5773fb] hover:text-[#5773fb] nav-links ${pathname === "/" ? "active" : ""}`}
-              id="dashboard"
-            >
-              <Link className="" href="/">
-                Dashboard
-              </Link>
-            </li>
-            <li
-              className={`px-2 text-[#8F96A1] font-medium transform duration-200 hover:-translate-y-0.5 hover:border-[#5773fb] hover:text-[#5773fb] nav-links ${pathname === "/elections" ? "active" : ""}`}
-              id="elections"
-            >
-              <Link className="" href="/elections">
-                Vote
-              </Link>
-            </li>
-            {/* <li className="px-8  nav-linksfont-medium">
-                    <Link hre className=""f="/kyc">KYC</Link>
-                </li> */}
-            <li
-              className={`px-2 text-[#8F96A1] font-medium transform duration-200 hover:-translate-y-0.5 hover:border-[#5773fb] hover:text-[#5773fb] nav-links ${pathname === "/addElection" ? "active" : ""}`}
-              id="addElection"
-            >
-              <Link className="" href="/addElection">
-                Create Election
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <div className="flex flex-1 items-center justify-end">
-          <w3m-button />
-          {/* </div> */}
-          {/* <button onClick={handleConnect} className="space-x-4 bg-[#9747FF] text-white rounded-lg w-[9rem] h-[2.5rem] ml-20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 z-50">
-                {/* <w3m-button /> 
-                </button> */}
-          </div>
-      </nav>
-    </header>
+  return (
+    <nav className="grid grid-cols-2 grid-rows-2 md:grid-rows-1 md:grid-cols-4 md:h-16 gap-y-5 items-center justify-between">
+      {/* mobile nav */}
+      <div className="text-lg font-bold tracking-tighter leading-tight">
+        E-VOté
+      </div>
+      <div className="row-start-2 col-span-full md:row-start-1 md:col-start-2 md:col-span-2 w-full flex items-center justify-center uppercase font-medium gap-5 text-muted ">
+        <Link
+          href="/election"
+          className={`${pathname.includes("election") ? "border-b-2 text-primary dark:text-slate-100 dark:border-slate-100 border-primary" : ""} p-1 `}
+        >
+          Government
+        </Link>
+        <Link
+          href="/election"
+          className={`${pathname.includes("institution") ? "border-b-2 dark:text-slate-100 dark:border-slate-100 text-primary border-primary" : ""} p-1 `}
+        >
+          Institution
+        </Link>
+        <Link
+          href="/kyc"
+          className={`${pathname.includes("kyc") ? "border-b-2 dark:text-slate-100 dark:border-slate-100 text-primary border-primary" : ""} p-1 `}
+        >
+          KYC
+        </Link>
+      </div>
+      <div className="col-start-2 row-span-1 md:col-start-4 text-right">
+        <WalletConnect />
+      </div>
+    </nav>
   );
 }
+
+const WalletConnect = () => {
+  return <div>connect wallet</div>;
+};

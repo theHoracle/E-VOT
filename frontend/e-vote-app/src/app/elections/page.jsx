@@ -1,53 +1,33 @@
-"use client"
 import Link from "next/link";
 import { Web3 } from "web3";
-
+import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
+import ElectionPill from "../../components/election-pill";
 
 export default function Elections() {
+  const tabs = ["elections", "results"];
+
   return (
-    <div className="py-10 px-20">
-        <div>
-            <p className="text-[32px] font-medium form-item">Live Elections</p>
-            <p className=" form-item">Vote to make your voice heard</p>
-        </div>
-        <div className="flex flex-col sm:flex-row flex-wrap justify-between items-center border rounded-lg p-10 gap-14 mt-10 form-item">
-            <div className="shadow-made rounded-lg flex flex-col justify-center items-center py-12 px-16 text-center basis-[45%] form-item">
-                <p className="text-[24px] font-medium form-item">Unilag Student Union Representative</p>
-                <p className="text-sm font-normal text-[#8F96A1] form-item">Election running from - 1st September to 12th September, 2024</p>
-                <Link href="/election-details">
-                <button className="space-x-4 bg-[#5773fb] text-white rounded-lg w-[9rem] h-[3rem] mt-16 form-item transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                Click To View
-                </button>
-                </Link>
-            </div>
-            <div className="shadow-made rounded-lg flex flex-col justify-center items-center py-12 px-16 text-center basis-[45%] form-item">
-                <p className="text-[24px] font-medium form-item">LASU Student Union Representative</p>
-                <p className="text-sm font-normal text-[#8F96A1] form-item">Election running from - 4th September to 20th September, 2024</p>
-                <Link href="/election-details">
-                <button className="space-x-4 bg-[#5773fb] text-white rounded-lg w-[9rem] h-[3rem] mt-16 form-item transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                Click To View
-                </button>
-                </Link>
-            </div>
-            <div className="shadow-made rounded-lg flex flex-col justify-center items-center py-12 px-16 text-center basis-[45%] form-item">
-                <p className="text-[24px] font-medium form-item">FUTO Student Union Representative</p>
-                <p className="text-sm font-normal text-[#8F96A1] form-item">Election running from - 3rd September to 19th September, 2024</p>
-                <Link href="/election-details">
-                <button className="space-x-4 bg-[#5773fb] text-white rounded-lg w-[9rem] h-[3rem] mt-16 form-item transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                Click To View
-                </button>
-                </Link>
-            </div>
-            <div className="shadow-made rounded-lg flex flex-col justify-center items-center py-12 px-16 text-center basis-[45%] form-item">
-                <p className="text-[24px] font-medium form-item">Uniben Student Union Representative</p>
-                <p className="text-sm font-normal text-[#8F96A1] form-item">Election running from - 3rd September to 15th September, 2024</p>
-                <Link href="/election-details">
-                <button className="space-x-4 bg-[#5773fb] text-white rounded-lg w-[9rem] h-[3rem] mt-16 form-item transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                Click To View
-                </button>
-                </Link>
-            </div>
-        </div>
+    <div>
+      <div className="py-5">
+        <TabGroup>
+          <TabList className="bg-white dark:bg-slate-100 rounded-[30px] w-full max-w-md mx-auto flex py-1 px-1 justify-center text-primary dark:text-muted items-center">
+            {tabs.map((tab) => (
+              <Tab
+                key={tab}
+                className="rounded-3xl uppercase w-1/2 py-5  font-semibold text-accent dark:text-slate-900 focus:outline-none data-[selected]:bg-primary data-[selected]:text-white dark:data-[selected]:text-slate-100 dark:data-[selected]:bg-slate-900 data-[hover]:bg-slate-200 data-[focus]:outline-1 data-[focus]:outline-white"
+              >
+                {tab}
+              </Tab>
+            ))}
+          </TabList>
+          <TabPanels className="py-5">
+            <TabPanel>
+              <ElectionPill />
+            </TabPanel>
+            <TabPanel>Content 2</TabPanel>
+          </TabPanels>
+        </TabGroup>
+      </div>
     </div>
   );
 }

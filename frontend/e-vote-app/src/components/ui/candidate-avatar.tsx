@@ -7,21 +7,19 @@ export const CandidateAvatar = ({
   name: string;
   image: string;
 }) => {
-  <div className="relative aspect-square rounded overflow-hidden">
-    <Image
-      src={image}
-      alt={`Election candidate: ${name}`}
-      fill
-      className="object-cover object-center"
-    />
-    <div
-      className="absolute bottom-6 left-1/2 -translate-x-1/2
-        bg-black/30 backdrop-blur-sm px-6 py-2 rounded-full
-        border border-white/10 hover:bg-black/40 transition-colors"
-    >
-      <span className="text-white font-medium text-sm tracking-wide">
-        {name}
-      </span>
+  return (
+    <div className="relative size-full aspect-square rounded-lg min-w-24 overflow-hidden">
+      <Image
+        src={image}
+        alt={`Election candidate: ${name}`}
+        fill
+        className="object-cover object-center"
+      />
+      <div className="absolute bottom-1 inset-x-1 bg-white px-1 py-0.5 rounded-2xl flex items-center justify-center text-slate-900 hover:bg-slate-200">
+        <span className="text-[10px] leading-none text-center">
+          {name}
+        </span>
+      </div>
     </div>
-  </div>;
+  );
 };

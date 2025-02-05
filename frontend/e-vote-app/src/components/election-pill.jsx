@@ -6,12 +6,12 @@ import { CandidateAvatar } from "./ui/candidate-avatar";
  * */
 const ElectionPill = (props) => {
   const {} = props;
-  const candidates = new Array(8).fill({
+  const candidates = new Array(7).fill({
     img: "/assets/candidate1.avif",
     candidate: "Emeka Peters",
   });
   return (
-    <div className="grid grid-cols-2 grid-rows-[auto_50px_1fr] md:grid-cols-9 md:grid-rows-1 w-full items-center rounded-xl p-4 gap-4 bg-white dark:bg-slate-700">
+    <div className="grid grid-cols-2 grid-rows-[auto_50px_1fr] md:grid-cols-9 md:grid-rows-1 w-full items-center rounded-xl p-4 bg-white dark:bg-slate-700">
       <div className="flex flex-col gap-2 md:col-span-2">
         <h3 className="text-xs md:text-base">Lagos Government</h3>
         <h2 className="text-sm lg:text-2xl uppercase font-medium  leading-tight">
@@ -22,16 +22,35 @@ const ElectionPill = (props) => {
           restricted
         </h4>
       </div>
-      <div className="col-start-2 row-span-1 md:col-start-3 md:col-span-6 flex items-center md:gap-4 w-full md:overflow-x-scroll scroll-m-0">
-        {candidates.map((candidate, i) => (
-          <CandidateAvatar
-            key={i}
-            image={candidate.img}
-            name={candidate.candidate}
-          />
-        ))}
+      <div className="col-start-2 row-span-1 md:col-start-3 md:col-span-6 w-full relative">
+        <div className="">
+          <div className="hidden md:inline-flex space-x-3 w-full overflow-x-scroll scrollbar-hide">
+            {candidates.map((candidate, i) => (
+              <CandidateAvatar
+                key={i}
+                image={candidate.img}
+                name={candidate.candidate}
+              />
+            ))}
+          </div>
+          <div
+            className={`md:hidden relative min-h-24 size-full max-w-fit alig`}
+          >
+            {candidates.map((candidate, i) => (
+              <div
+                key={i}
+                className={`absolute inset-0 ${i === candidates.length - 1 ? "transform translate-x-10" : ""} ${i === candidates.length - 2 ? "transform translate-x-5" : ""} `}
+              >
+                <CandidateAvatar
+                  name={candidate.candidate}
+                  image={candidate.img}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
-      <div className="row-start-2 col-span-2 md:col-auto md:row-span-1 w-full text-center">
+      <div className="row-start-2 col-span-2 md:col-auto md:row-span-1 w-full text-center md:pl-4">
         <Button className="w-full py-5">Open</Button>
       </div>
     </div>

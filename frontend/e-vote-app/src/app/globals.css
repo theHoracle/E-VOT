@@ -84,6 +84,14 @@ input[type="file"] {
   display: none;
 }
 
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
 .uploadNIN {
   display: inline-block;
   padding: 10px 20px;

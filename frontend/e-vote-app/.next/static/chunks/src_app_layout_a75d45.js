@@ -6,7 +6,7 @@
   "path": "static/chunks/src_app_layout_a75d45.js",
   "chunks": [
     "static/chunks/[root of the server]__d85923._.css",
-    "static/chunks/94bd2_next_038e71._.js",
+    "static/chunks/94bd2_next_273968._.js",
     "static/chunks/df744_@web3modal_core_dist_esm_ff6eba._.js",
     "static/chunks/68b56_@web3modal_ui_dist_esm_897987._.js",
     "static/chunks/7efa4_@web3modal_scaffold_dist_esm_src_modal_6a72d8._.js",
@@ -29,9 +29,9 @@
     "static/chunks/579d5_@walletconnect_universal-provider_dist_index_es_1eecba.js",
     "static/chunks/98993_@coinbase_wallet-sdk_dist_9309ea._.js",
     "static/chunks/ed553_readable-stream_7cbedc._.js",
-    "static/chunks/node_modules__pnpm_55c1f5._.js",
-    "static/chunks/src_080a17._.js",
-    "static/chunks/node_modules__pnpm_85f12d._.js"
+    "static/chunks/node_modules__pnpm_2cbb43._.js",
+    "static/chunks/src_633e09._.js",
+    "static/chunks/node_modules__pnpm_61756c._.js"
   ],
   "source": "dynamic"
 });

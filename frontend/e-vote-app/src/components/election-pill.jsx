@@ -14,7 +14,7 @@ const ElectionPill = (props) => {
     <div className="grid grid-cols-2 grid-rows-[auto_50px_1fr] md:grid-cols-9 md:grid-rows-1 w-full items-center rounded-xl p-4 gap-4 bg-white dark:bg-slate-700">
       <div className="flex flex-col gap-2 md:col-span-2">
         <h3 className="text-xs md:text-base">Lagos Government</h3>
-        <h2 className="text-sm lg:text-2xl uppercase font-medium leading-tight">
+        <h2 className="text-sm lg:text-2xl uppercase font-medium  leading-tight">
           Senate Election
         </h2>
         <h4 className="flex items-center text-xs gap-1 uppercase">
@@ -27,7 +27,7 @@ const ElectionPill = (props) => {
           <CandidateAvatar
             key={i}
             image={candidate.img}
-            candidate={candidate.candidate}
+            name={candidate.candidate}
           />
         ))}
       </div>
